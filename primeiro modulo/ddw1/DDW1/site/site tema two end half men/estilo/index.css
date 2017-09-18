@@ -1,0 +1,71 @@
+body
+{
+    overflow-x: hidden;
+    background: black;
+}
+
+
+header img
+{
+    height: 400px;
+    width: 100%;
+    background: black
+}
+
+header nav 
+{ 
+    position:absolute;
+    top: 407px;
+    left: 7px;
+    width: 1320px;
+    border-width: 10px;   
+    border-style: groove;    
+    border-color:cornflowerblue;
+    font-size: 30px;
+    background: black;
+}
+
+
+header a
+{
+    color:white;
+	text-decoration:none;
+}
+
+
+header a:hover
+{
+    transition: 0.5s color;
+    color: red;
+}
+
+#Sinopse
+{
+    
+    width: 700px;
+    position:absolute;
+    top: 500px;
+    left: 0px;
+    color: white;
+   
+    
+}
+
+footer{
+    width: 100%;
+    position:absolute;
+    top: 1000px;
+    font-size: 25px;
+    color: white;
+    background:black;
+   left: 500px;   
+}
+
+aside
+{
+    position: absolute;
+    left:  750px;
+    top: 500px;  
+    color: white;    
+
+}
