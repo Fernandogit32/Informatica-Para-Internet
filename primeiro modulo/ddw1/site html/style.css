@@ -50,5 +50,106 @@ header{
     width: 1200px;
 }
 
+nav
+{
+    float: right;
+    margin-top:78px;
+    text-align:right;
+    width: 490px;
+    
+}
+
+nav ul
+{
+list-style-type:none;
+}
+nav li
+{
+display:inline;
+}
+
+nav ul li a
+{
+margin-right: 30px;
+}
+
+nav ul li:nth-child(5) a
+{
+margin-right:0px;
+}
+
+nav a:link, nav a:visited
+{
+color:#999;
+font-size: 22px;
+font-weight: 300;
+letter-spacing:-2px;
+line-height: 26px;
+display:inline-block;
+}
+
+nav a.ativo:link, nav a:hover
+{
+color: #fe9380;
+}
+
+.chamada
+{
+height: 290px;
+text-align: center;
+width: 1200px;
+}
+
+h2 span
+{
+font-size: 60px;
+font-weight: 300;
+letter-spacing: -2px;
+line-height: 60px;
+}
+
+.chamada h3
+{
+margin: 0 auto;
+width: 900px;
+}
+
+.container
+{
+    background-color: #fe9481;
+    height: 417px;
+    padding: 30px;
+    max-width: 1200px;
+}
+
+.desktop, .tablet, .mobile
+{
+float: left;
+position: relative;
+text-align: center;
+width: 360px;
+}
+.mobile
+{
+background-color: #9c8cb9;
+margin-right: 0px;
+}
+
+.desktop
+{
+background-color: #9c8cb9;
+}
+
+.tablet{
+    background-color: #fcda92;
+}
+
+#desktop img, #tablet img, #mobile img
+{
+margin: 10px auto -15px auto;
+text-align: center;
+}
+
+
 
 
