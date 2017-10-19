@@ -20,7 +20,9 @@ h1,h2{
     letter-spacing: -3px;
     line-height: 60px;
     text-align: center;
+    
 }
+
 
 h3{
    font-size: 32px; 
@@ -28,6 +30,7 @@ h3{
    letter-spacing: -2px;
    line-height: 38px;
 }
+
 
 p{
     font-weight: 300;
@@ -121,7 +124,16 @@ width: 900px;
     padding: 30px;
     max-width: 1200px;
 }
-
+.container p{
+	background-color:#fff;
+	float:left;
+	height:160px;
+	padding:7px;
+	position:absolute;
+	max-width: 360px;
+	text-align:justify;
+	top:225px;
+}
 .desktop, .tablet, .mobile
 {
 float: left;
@@ -143,12 +155,72 @@ background-color: #9c8cb9;
 .tablet{
     background-color: #fcda92;
 }
-
-#desktop img, #tablet img, #mobile img
+.desktop, .tablet{
+	margin-right: 30px;
+}
+.desktop img, .tablet img, .mobile img
 {
 margin: 10px auto -15px auto;
 text-align: center;
 }
+
+span.btn
+{
+font-size: 20px;
+font-weight:400;/*n*/ 
+letter-spacing: -2px;
+height: 27px;/*n*/
+margin-top: 30px;/*n*/
+position: absolute;
+right:1px;
+text-align: center;
+text-shadow: none;
+width: 120px;
+}
+
+span.btn a
+{
+color: #fff;
+padding: 2px 4px;
+
+}
+
+.desktop span.btn a
+{
+background-color: #fe9481;
+
+}
+.tablet span.btn a
+{
+background-color: #fcda92;
+}
+.mobile span.btn a  
+{
+    background-color: #9c8cb9;
+}
+
+footer{
+    clear: both;
+    height: 50px;
+    padding: 10px 0px;
+    width: 1200px;
+
+    }
+.copyright
+{
+float: left;
+margin-left: 30px;
+}
+.desenvolvedor
+{
+float: right;
+}
+.desenvolvedor figure
+{
+width: 182px;
+}
+
+
 
 
 
