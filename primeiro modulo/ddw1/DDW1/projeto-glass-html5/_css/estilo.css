@@ -8,21 +8,23 @@ body{
     color: rgba(0, 0, 0, 1);
 }
 
-div#interface{
-width:900px;
- background-color: white;
- margin: 20px auto 10px auto;
- box-shadow: 0px,0px,10px,black;
- padding: 10px,10px,10px,10px;
+div#interface{    
+    
+    width:1250px;
+    background-color:white;  
+    margin: -27px auto 0px auto;  
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
+ 
 }
 header#cabecalho img#icone{
     position: absolute;
-    left: 900px;
-    top: 50px;
+    left: 1140px;
+    top: 65px;
 
 }
 header#cabecalho{
-    border-bottom: 1px,#606060,solid;
+    border-bottom: 1px #606060 solid;
     height: 150px;
     background: url("../_imagens/glass-logo-peq.jpg")no-repeat 0px 80px;
 }
@@ -30,14 +32,14 @@ header#cabecalho h1{
     font-family: 'fontelogo',sans-serif;
     font-size: 30pt;
     color: #606060;
-    text-shadow: 1px,1px,1px,rgba(0,0,0,.6);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
     padding: 0px;
     margin-bottom: 0px;
     
 
 }
 header#cabecalho h2{
-    font-family: Arial,sans-serif;
+    font-family: Arial ,sans-serif;
     font-size: 15pt;
     color: #888888;    
     padding: 0px;
@@ -48,7 +50,7 @@ header#cabecalho h2{
 figure.foto-legenda{
     position: relative;
     border: 8px solid white;
-    box-shadow: 1px,1px,4px,black;
+    box-shadow: 1px 1px 4px black;
 
 }
 figure.foto-legenda figcaption{
@@ -76,7 +78,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 500px;
+    left: 675px;
 }
 nav#menu li{
     display: inline-block;
@@ -98,4 +100,25 @@ nav#menu a{
 nav#menu a:hover{
     color: #ffffff;
     text-decoration: underline;
+}
+section#corpo {
+    
+    display: block;
+    width: 809px;
+    float: left;
+    border-right:1px solid #606060; 
+    padding: 20px;
+}
+
+aside#lateral {
+  
+    display: block;
+    width: 360px;
+    float: right;
+    padding: 20px;
+}
+footer#rodape{
+    clear: both;
+    border-top:1px solid #606060; 
+    text-align: center;
 }
