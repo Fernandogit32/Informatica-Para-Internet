@@ -4,6 +4,7 @@
     src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 body{
+    font-family: Arial, sans-serif;
     background-color: #dddddd;
     color: rgba(0, 0, 0, 1);
 }
@@ -17,6 +18,12 @@ div#interface{
     padding: 10px 10px 10px 10px;
  
 }
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
 header#cabecalho img#icone{
     position: absolute;
     left: 1140px;
@@ -104,21 +111,94 @@ nav#menu a:hover{
 section#corpo {
     
     display: block;
-    width: 809px;
+    width: 700px;
     float: left;
     border-right:1px solid #606060; 
     padding: 20px;
 }
+article#noticia-principal h2{
+font-size: 12pt;
+color: #606060;
+background: #dddddd;
+padding: 5px 0px 5px 10px;
+margin: 10px 0px 10px 0px;
 
-aside#lateral {
-  
+}
+
+
+header#cabecalho-de-artigo h1{
+font-family: 'fontelogo',sans-serif;
+font-size: 20pt;
+color: #606060;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+header#cabecalho-de-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+
+
+header#cabecalho-de-artigo h3{
+    font-size: 12pt;
+    color: #606060;
+}
+.direita{
+    text-align: right;
+}
+
+table#tabela{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    border: 1px solid #606060;
+    text-align: center;
+}
+table#tabela td{
+    border: 1px solid #606060;
+    padding: 10px;
+    font-weight: bold;
+}
+
+table#tabela td.ce{
+color: #ffffff;
+background-color: #606060;
+vertical-align: top;
+}
+table#tabela td.cd{
+    background-color:#cecece;
+    }
+    table#tabela caption{
+        color: #888888;
+        font-size: 13pt;
+        font-weight: bold;
+    }
+    table#tabela caption span{
+        display: block;
+        float: right;
+        color:#000000;
+        font-size: 8pt;
+        margin-top: 10px;
+    }
+aside#lateral {  
     display: block;
-    width: 360px;
+    width: 465px;
     float: right;
     padding: 20px;
+    text-align: justify;
+    
+    
 }
 footer#rodape{
     clear: both;
     border-top:1px solid #606060; 
     text-align: center;
 }
+.rodape{
+    text-align: center;
+}
+
